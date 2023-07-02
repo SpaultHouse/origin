@@ -375,7 +375,6 @@ footer ul{
     line-height: 1.2;
 }
 .formul-title::before{
-    content: "💌";
     display: block;
 }
 .socils{
