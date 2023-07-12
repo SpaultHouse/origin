@@ -620,6 +620,8 @@ footer ul{
 }
 
 
+/* Estilos padrão do carrossel */
+
 .carousel {
     width: 100%;
     max-width: 800px; /* Defina o valor máximo de largura conforme necessário */
@@ -630,4 +632,19 @@ footer ul{
     width: 100%;
     height: auto;
   }
+  
+  /* Estilos para telas menores */
+  
+  @media screen and (max-width: 768px) {
+    .carousel {
+      max-width: 400px; /* Ajuste o tamanho máximo para telas menores */
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .carousel {
+      max-width: 300px; /* Ajuste o tamanho máximo para telas ainda menores */
+    }
+  }
+  
   
