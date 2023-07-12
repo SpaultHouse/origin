@@ -38,3 +38,28 @@ const mobileNavbar = new MobileNavbar(
     ".nav-list li",
 );
 mobileNavbar.init();
+
+
+$(document).ready(function() {
+    $('.carousel').slick({
+      autoplay: true,
+      autoplaySpeed: 2000, // Defina o intervalo de tempo entre as transições das imagens (em milissegundos)
+      dots: false, // Defina como true se desejar exibir pontos indicadores de navegação
+      arrows: false, // Defina como true se desejar exibir setas de navegação
+      infinite: true,
+      speed: 500, // Defina a velocidade da transição das imagens (em milissegundos)
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 768, // Defina um ponto de interrupção para dispositivos móveis
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+        // Adicione mais pontos de interrupção e configurações responsivas, se necessário
+      ]
+    });
+  });
+  

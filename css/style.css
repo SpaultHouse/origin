@@ -618,3 +618,16 @@ footer ul{
         transform: translateX(0);
     }
 }
+
+
+.carousel {
+    width: 100%;
+    max-width: 800px; /* Defina o valor máximo de largura conforme necessário */
+    margin: 0 auto;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+  }
+  
